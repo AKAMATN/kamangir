@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>51 video</title>
+    <link rel="shortcut icon" href="../kaman-photo/3.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* پس‌زمینه مشکی */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* حذف اسکرول */
+        }
+
+        video {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover; /* برای تنظیم ویدیو در صورت متفاوت بودن نسبت‌ها */
+            border: 5px solid #fff; /* خط حاشیه سفید (اختیاری) */
+            border-radius: 10px; /* گوشه‌های گرد برای زیبایی بیشتر (اختیاری) */
+        }
+    </style>
+</head>
+<body>
+    <video controls autoplay loop>
+        <source src="https://persian10.asset.aparat.com/aparat-video/1b5254808533feea3f1decc88a518cbf55725351-240p.mp4?wmsAuthSign=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbiI6IjY0YTJmZjAzZDYzMWI4ZWY2MTM0ZWIxNTQ4NmJjMDY1IiwiZXhwIjoxNzM1MjM4MDg3LCJpc3MiOiJTYWJhIElkZWEgR1NJRyJ9.GFd0Zv3T4LIm1CcqgIJJ0XfYmrsNiL-In6nV1Ss-VNA" type="video/mp4">
+        <source src="your-video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
